@@ -35,5 +35,5 @@ sudo docker run -it genomics-commons
 ```
 
 ### Notes
-- The size of the image is about **43 GB**.
+- The size of the image is about **34 GB**.
 ---
