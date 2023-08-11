@@ -27,12 +27,6 @@
 | [fastp](https://github.com/OpenGene/fastp) | [fastp: an ultra-fast all-in-one FASTQ preprocessor](https://www.ncbi.nlm.nih.gov/pubmed/30423086) |
 | [HTStream](https://github.com/ibest/HTStream.git) | [A toolset for high throughput sequence analysis using a streaming approach facilitated by Linux pipes](https://ibest.github.io/HTStream/) |
 | [fqtrim](https://ccb.jhu.edu/software/fqtrim/) | [trimming & filtering of next-gen reads](https://ccb.jhu.edu/software/fqtrim/)  |
-| [TreeTime](https://github.com/neherlab/treetime) | [TreeTime: Maximum-likelihood phylodynamic analysis](https://www.ncbi.nlm.nih.gov/pubmed/29340210) |
-| [FastTree](http://www.microbesonline.org/fasttree/) | [FastTree 2--approximately maximum-likelihood trees for large alignments](https://www.ncbi.nlm.nih.gov/pubmed/20224823) |
-| [RAxML](https://github.com/stamatak/standard-RAxML.git) | [RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies](https://www.ncbi.nlm.nih.gov/pubmed/24451623) |
-| [RAxML-NG](https://github.com/amkozlov/raxml-ng) | [RAxML-NG: a fast, scalable and user-friendly tool for maximum likelihood phylogenetic inference](https://www.ncbi.nlm.nih.gov/pubmed/31070718) | 
-| [PhyML](https://github.com/stephaneguindon/phyml.git) | [Estimating maximum likelihood phylogenies with PhyML](https://www.ncbi.nlm.nih.gov/pubmed/19378142) |
-| [Pplacer](https://matsen.fhcrc.org/pplacer/) | [pplacer: linear time maximum-likelihood and Bayesian phylogenetic placement of sequences onto a fixed reference tree](https://www.ncbi.nlm.nih.gov/pubmed/21034504) |
 | [SAMtools](https://github.com/samtools/samtools) | [The Sequence Alignment/Map format and SAMtools](https://www.ncbi.nlm.nih.gov/pubmed/19505943) |
 | [BCFtools](https://github.com/samtools/bcftools) | [https://www.ncbi.nlm.nih.gov/pubmed/28205675](https://www.ncbi.nlm.nih.gov/pubmed/28205675) |
 | [Bamtools](https://github.com/pezmaster31/bamtools) | [BamTools provides both a programmer's API and an end-user's toolkit for handling BAM files](https://github.com/pezmaster31/bamtools/wiki) |
@@ -41,25 +35,7 @@
 | [deepTools](https://github.com/deeptools/deepTools) | [deepTools2: a next generation web server for deep-sequencing data analysis](https://www.ncbi.nlm.nih.gov/pubmed/27079975) |
 | [BEDOPS](https://github.com/bedops/bedops) |  [BEDOPS: high-performance genomic feature operations](https://www.ncbi.nlm.nih.gov/pubmed/22576172) |
 | [Sambamba](https://github.com/biod/sambamba) | [Sambamba: fast processing of NGS alignment formats](https://www.ncbi.nlm.nih.gov/pubmed/25697820) | 
-| [SPAdes](https://github.com/ablab/spades) | [SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing](https://www.ncbi.nlm.nih.gov/pubmed/22506599) |
-| [ABySS](https://github.com/bcgsc/abyss) | [ABySS: a parallel assembler for short read sequence data](https://www.ncbi.nlm.nih.gov/pubmed/19251739) |
-| [Velvet](https://github.com/dzerbino/velvet) | [Velvet: algorithms for de novo short read assembly using de Bruijn graphs](https://www.ncbi.nlm.nih.gov/pubmed/18349386) |
-| [MEGAHIT](https://github.com/voutcn/megahit) | [MEGAHIT: An ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph](https://www.ncbi.nlm.nih.gov/pubmed/25609793) |
-| [MetaVelvet](http://metavelvet.dna.bio.keio.ac.jp/) | [MetaVelvet: an extension of Velvet assembler to de novo metagenome assembly from short sequence reads](https://www.ncbi.nlm.nih.gov/pubmed/22821567) |
-| [Prodigal](https://github.com/hyattpd/Prodigal) | [Prodigal: prokaryotic gene recognition and translation initiation site identification](https://www.ncbi.nlm.nih.gov/pubmed/20211023) |
-| [Infernal](http://eddylab.org/infernal/) | [inference of RNA alignments](https://www.ncbi.nlm.nih.gov/pubmed/24008419) |
-| [antiSMASH](https://antismash.secondarymetabolites.org/) | [antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters](https://pubmed.ncbi.nlm.nih.gov/21672958/) |
-| [DeepBGC](https://github.com/Merck/deepbgc) | [A deep learning genome-mining strategy for biosynthetic gene cluster prediction](https://www.ncbi.nlm.nih.gov/pubmed/31400112) |
-| [GECCO](https://gecco.embl.de/) | [Accurate de novo identification of biosynthetic gene clusters with GECCO](https://doi.org/10.1101/2021.05.03.442509) |
 | [Miniconda](https://docs.conda.io/en/latest/miniconda.html) | [Package, dependency and environment management for any language](https://docs.conda.io/en/latest/) |
 | [CD-HIT](https://github.com/weizhongli/cdhit) | [Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences](https://www.ncbi.nlm.nih.gov/pubmed/16731699) |
 | [Nextflow](https://www.nextflow.io/) | [Nextflow enables reproducible computational workflows](https://pubmed.ncbi.nlm.nih.gov/28398311/) |
 | [GATK](https://gatk.broadinstitute.org/hc/en-us) | [The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data](https://pubmed.ncbi.nlm.nih.gov/20644199/) |
-| [Centrifuge](https://github.com/DaehwanKimLab/centrifuge) | [Centrifuge: rapid and sensitive classification of metagenomic sequences](https://pubmed.ncbi.nlm.nih.gov/27852649/) |
-| [Pavian](https://github.com/fbreitwieser/pavian) | [Pavian: interactive analysis of metagenomics data for microbiome studies and pathogen identification](https://pubmed.ncbi.nlm.nih.gov/31553437/) |
-| [Kraken2](https://github.com/DerrickWood/kraken2) | [Metagenome analysis using the Kraken software suite](https://pubmed.ncbi.nlm.nih.gov/36171387/) |
-| [Bracken](https://github.com/jenniferlu717/Bracken) | [Bracken: estimating species abundance in metagenomics data](https://doi.org/10.7717/peerj-cs.104) |
-| [MetaPhlAn](https://github.com/biobakery/MetaPhlAn) | [Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4](https://pubmed.ncbi.nlm.nih.gov/36823356/) |
-| [HUMAnN](https://huttenhower.sph.harvard.edu/humann/) | [Integrating taxonomic, functional, and strain-level profiling of diverse microbial communities with bioBakery 3](https://pubmed.ncbi.nlm.nih.gov/33944776/) | 
-| [mothur](https://mothur.org/) | [Introducing mothur: Open-Source, Platform-Independent, Community-Supported Software for Describing and Comparing Microbial Communities](https://pubmed.ncbi.nlm.nih.gov/19801464/) |
-| [UCHIME](http://drive5.com/usearch/manual/uchime_algo.html) | [UCHIME improves sensitivity and speed of chimera detection](https://pubmed.ncbi.nlm.nih.gov/21700674/) |
