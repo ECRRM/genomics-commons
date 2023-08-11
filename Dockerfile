@@ -33,7 +33,7 @@ WORKDIR $SETUPDIR
 ###############
 ###############
 
-RUN apt-get -y install vim nano emacs rsync curl wget screen htop parallel gnupg lsof git locate unrar bc aptitude unzip bison flex \ && \
+RUN apt-get -y install vim nano emacs rsync curl wget screen htop parallel gnupg lsof git locate unrar bc aptitude unzip bison flex && \
     build-essential libtool autotools-dev automake autoconf cmake && \
     libboost-dev libboost-all-dev libboost-system-dev libboost-program-options-dev libboost-iostreams-dev libboost-filesystem-dev && \
     gfortran libgfortran5 && \
@@ -74,7 +74,7 @@ RUN apt-get -y install bioperl && \
     
 # Biopython
 ###########
-RUN pip3 install --no-cache-dir -U biopython numpy pandas matplotlib scipy seaborn statsmodels plotly bokeh scikit-learn tensorflow keras torch theano jupyterlab && \
+RUN pip3 install --no-cache-dir -U biopython numpy pandas matplotlib scipy seaborn statsmodels plotly bokeh scikit-learn tensorflow keras torch theano jupyterlab 
     
 # R
 ###
@@ -85,19 +85,19 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get -y install --no-install-recommends r-base r-base-dev && \
     
-RUN R -e "install.packages (c('remotes, tidyverse', 'tidylog', 'readr', 'dplyr', 'knitr', 'printr', 'rmarkdown', 'shiny', \ && \
+RUN R -e "install.packages (c('remotes, tidyverse', 'tidylog', 'readr', 'dplyr', 'knitr', 'printr', 'rmarkdown', 'shiny',  && \
     'ggplot2', 'gplots', 'plotly', 'rbokeh', 'circlize', 'RColorBrewer', 'formattable', && \
     'reshape2', 'data.table', 'readxl', 'devtools', 'cowplot', 'tictoc', 'ggpubr', 'patchwork', 'reticulate', && \
     'rpart', 'rpart.plot', 'randomForest', 'randomForestExplainer', 'randomForestSRC', 'ggRandomForests', 'xgboost', 'gbm', 'iml', && \
     'gganimate', 'gifski', 'av', 'magick', 'ggvis', 'googleVis', && \
     'pheatmap', 'Rtsne', 'vsn', 'vegan', 'BiocManager'), ask = FALSE)"
 
-RUN R -e "BiocManager::install(c('DESeq2', 'edgeR', 'dada2', 'phyloseq', 'metagenomeSeq', 'biomaRt'), ask = FALSE, update = TRUE)" && \
+RUN R -e "BiocManager::install(c('DESeq2', 'edgeR', 'dada2', 'phyloseq', 'metagenomeSeq', 'biomaRt'), ask = FALSE, update = TRUE)"
     
 ##########################################################################################
 ##########################################################################################
 
-RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10 && \
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10 
     
 ##########################################################################################
 ##########################################################################################
