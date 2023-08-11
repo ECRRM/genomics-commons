@@ -5,7 +5,7 @@ LABEL description="ECRRM Genomics Commons Docker Image"
 # Setting non-interactive frontend for APT to prevent prompts
 LABEL maintainer="amoustafa@aucegypt.edu"
 
-RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections && \
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
     
 ##########################################################################################
 ##########################################################################################
