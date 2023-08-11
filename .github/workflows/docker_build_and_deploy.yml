@@ -34,3 +34,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ghcr.io/ECRRM/genomics-toolbox:latest
+
