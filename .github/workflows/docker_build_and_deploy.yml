@@ -33,5 +33,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/ECRRM/genomics-toolbox:latest
+          tags: ghcr.io/ecrrm/genomics-toolbox:latest
 
