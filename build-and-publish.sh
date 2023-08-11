@@ -4,8 +4,8 @@
 # sudo docker rm -vf $(sudo docker ps -aq)
 # sudo docker rmi -f $(sudo docker images -aq)
 
-sudo docker build -t ghcr.io/ecrrm/genomics-toolbox .
-# sudo docker run -v /data:/data -it ghcr.io/ECRRM/genomics-toolbox /bin/bash
+sudo docker build -t ghcr.io/ecrrm/genomics-commons .
+# sudo docker run -v /data:/data -it ghcr.io/ECRRM/genomics-commons /bin/bash
 # ~/token.txt is a Github personal access tokens
 cat ~/token.txt | sudo docker login ghcr.io -u ahmedmoustafa --password-stdin
-sudo docker push ghcr.io/ecrrm/genomics-toolbox
+sudo docker push ghcr.io/ecrrm/genomics-commons
