@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-LABEL description="ECRRM Genomics Toolbox Docker Image"
+LABEL description="ECRRM Genomics Commons Docker Image"
 LABEL maintainer="amoustafa@aucegypt.edu"
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
@@ -18,7 +18,7 @@ add-apt-repository restricted
 ##########################################################################################
 ##########################################################################################
 
-ARG SETUPDIR=/tmp/genomics-toolbox-setup/
+ARG SETUPDIR=/tmp/genomics-commons-setup/
 RUN mkdir -p $SETUPDIR
 WORKDIR $SETUPDIR
 
@@ -480,27 +480,27 @@ RUN cd $SETUPDIR/
 RUN echo "#!/usr/bin/bash" > $SETUPDIR/init.sh
 RUN echo "export PATH=$PATH:/usr/local/ncbi/sra-tools/bin/:/usr/local/ncbi/ngs-tools/bin/:/usr/local/ncbi/ncbi-vdb/bin:/usr/local/miniconda3/bin:/apps/gatk:/apps/IGV:/apps/ensembl-vep:" >> $SETUPDIR/init.sh
 RUN echo "source /etc/profile.d/*" >> $SETUPDIR/init.sh
-RUN echo "echo '****************************************'" >> $SETUPDIR/init.sh
-RUN echo "echo 'Welcome to ECRRM Genomics Toolbox (v1.0)'" >> $SETUPDIR/init.sh
-RUN echo "echo '****************************************'" >> $SETUPDIR/init.sh
-RUN echo "echo 'ECRRM Genomics Toolbox is a docker image for genomics tools'" >> $SETUPDIR/init.sh
+RUN echo "echo '**********************************'" >> $SETUPDIR/init.sh
+RUN echo "echo 'Welcome to Genomics Commons (v1.0)'" >> $SETUPDIR/init.sh
+RUN echo "echo '**********************************'" >> $SETUPDIR/init.sh
+RUN echo "echo 'ECRRM Genomics Commons is a docker image for genomics tools'" >> $SETUPDIR/init.sh
 RUN echo "echo " >> $SETUPDIR/init.sh
 RUN echo "echo 'For a list of installed tools, please visit: '" >> $SETUPDIR/init.sh
-RUN echo "echo 'https://github.com/ECRRM/genomics-toolbox/blob/master/Tools.md'" >> $SETUPDIR/init.sh
+RUN echo "echo 'https://github.com/ECRRM/genomics-commons/blob/master/Tools.md'" >> $SETUPDIR/init.sh
 RUN echo "echo " >> $SETUPDIR/init.sh
 RUN echo "echo 'If you would like to request adding certain tools or report a problem,'" >> $SETUPDIR/init.sh
-RUN echo "echo 'please submit an issue https://github.com/ECRRM/genomics-toolbox/issues'" >> $SETUPDIR/init.sh
+RUN echo "echo 'please submit an issue https://github.com/ECRRM/genomics-commons/issues'" >> $SETUPDIR/init.sh
 RUN echo "echo " >> $SETUPDIR/init.sh
 RUN echo "echo 'Have fun!'" >> $SETUPDIR/init.sh
 RUN echo "echo ''" >> $SETUPDIR/init.sh
 RUN echo "echo ''" >> $SETUPDIR/init.sh
 RUN echo "/usr/bin/bash" >> $SETUPDIR/init.sh
 RUN echo "" >> $SETUPDIR/init.sh
-RUN mv $SETUPDIR/init.sh /etc/genomics-toolbox.sh
-RUN chmod a+x /etc/genomics-toolbox.sh
+RUN mv $SETUPDIR/init.sh /etc/genomics-commons.sh
+RUN chmod a+x /etc/genomics-commons.sh
 
 WORKDIR /root/
-ENTRYPOINT ["/etc/genomics-toolbox.sh"]
+ENTRYPOINT ["/etc/genomics-commons.sh"]
 RUN rm -fr $SETUPDIR
 
 # Versions
