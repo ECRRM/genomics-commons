@@ -1,8 +1,8 @@
-![ECRRM Genomics Toolbox](toolbox.png)
+# Genomics Commons
 
-# ECRRM Genomics Toolbox
+![Genomics Commons](https://media.gettyimages.com/id/131800347/photo/printout-of-a-dna-sequence-chromatogram.jpg?s=2048x2048&w=gi&k=20&c=-F2kfcHNZSmKcs3t2KdU0DwwvDrw4F9-PlqxKoizqxI=)
 
-`genomics-toolbox` is a [Docker](https://www.docker.com/) image for common bioinformatics and genomics related tools.
+`genomics-commons` is a [Docker](https://www.docker.com/) image for common genomics tools.
 
 The list of the installed tools and packages can be found [here](Tools.md)
 
@@ -13,30 +13,27 @@ The list of the installed tools and packages can be found [here](Tools.md)
 The built image can be downloaded as follows:
 
 ```bash
-sudo docker run -it ghcr.io/ECRRM/genomics-toolbox /bin/bash
+sudo docker run -it ghcr.io/ecrrm/genomics-commons /bin/bash
 ```
 
 ### Option 2: Building from the `Dockerfile`
 
 ```bash
-git clone https://github.com/ECRRM/genomics-toolbox.git
+git clone https://github.com/ECRRM/genomics-commons.git
 ```
 
 ```bash
-cd genomics-toolbox/
+cd genomics-commons/
 ```
 
 ```bash
-sudo docker build -t genomics-toolbox .
+sudo docker build -t genomics-commons .
 ```
 
 ```bash
-sudo docker run -it genomics-toolbox
+sudo docker run -it genomics-commons
 ```
 
 ### Notes
 - The size of the image is about **43 GB**.
-- Pulling the image (option #1) takes about **15 minutes** on a Google Cloud machine type [**e2-standard-2**](https://cloud.google.com/compute/docs/general-purpose-machines#e2_machine_types) in zone [**us-central1-a**](https://cloud.google.com/compute/docs/regions-zones).
-- Building the image (option #2) takes about **210 minutes** on a Google Cloud machine type [**e2-standard-2**](https://cloud.google.com/compute/docs/general-purpose-machines#e2_machine_types) in zone [**us-central1-a**](https://cloud.google.com/compute/docs/regions-zones).
-
 ---
