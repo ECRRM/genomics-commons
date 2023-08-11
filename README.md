@@ -1,4 +1,4 @@
-# Genomics Commons
+# ECRRM Genomics Commons
 
 ![Genomics Commons](https://media.gettyimages.com/id/131800347/photo/printout-of-a-dna-sequence-chromatogram.jpg?s=2048x2048&w=gi&k=20&c=-F2kfcHNZSmKcs3t2KdU0DwwvDrw4F9-PlqxKoizqxI=)
 
