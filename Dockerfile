@@ -17,6 +17,10 @@ ARG SETUPDIR=/tmp/genomics-commons-setup/
 RUN mkdir -p $SETUPDIR
 WORKDIR $SETUPDIR
 
+
+# Ensure 'git' is installed first
+RUN apt-get update && apt-get install -y git
+
 # Install tools and dependencies
 RUN apt-get update --fix-missing && \
 apt-get -y upgrade && \
