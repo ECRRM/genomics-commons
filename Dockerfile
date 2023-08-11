@@ -536,7 +536,6 @@ fqtrim -V ; \
 seqmagick --version ; \
 /apps/gatk/gatk --list ; \
 /apps/IGV/igv.sh --version ; \
-centrifuge --version ; \
 /usr/local/miniconda3/bin/conda --version ; \
 nextflow -version
 
