@@ -18,7 +18,10 @@ RUN mkdir -p $SETUPDIR
 WORKDIR $SETUPDIR
 
 
-# Ensure 'git' is installed first
+# Ensure 'git' and 'gcc' (with related tools) are installed first
+RUN apt-get update && apt-get install -y git gcc g++ make
+
+
 RUN apt-get update && apt-get install -y git
 
 # Install tools and dependencies
