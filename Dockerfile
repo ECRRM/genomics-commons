@@ -489,10 +489,10 @@ RUN echo "echo '****************************************'" >> $SETUPDIR/init.sh
 RUN echo "echo 'CRRM Genomics Commons is a docker container for bioinformatics'" >> $SETUPDIR/init.sh
 RUN echo "echo " >> $SETUPDIR/init.sh
 RUN echo "echo 'For a list of installed tools, please visit: '" >> $SETUPDIR/init.sh
-RUN echo "echo 'https://github.com/ahmedmoustafa/genomics-commons/blob/master/Tools.md'" >> $SETUPDIR/init.sh
+RUN echo "echo 'https://github.com/ECRRM/genomics-commons/blob/master/Tools.md'" >> $SETUPDIR/init.sh
 RUN echo "echo " >> $SETUPDIR/init.sh
 RUN echo "echo 'If you would like to request adding certain tools or report a problem,'" >> $SETUPDIR/init.sh
-RUN echo "echo 'please submit an issue https://github.com/ahmedmoustafa/genomics-commons/issues'" >> $SETUPDIR/init.sh
+RUN echo "echo 'please submit an issue https://github.com/ECRRM/genomics-commons/issues'" >> $SETUPDIR/init.sh
 RUN echo "echo " >> $SETUPDIR/init.sh
 RUN echo "echo 'Have fun!'" >> $SETUPDIR/init.sh
 RUN echo "echo ''" >> $SETUPDIR/init.sh
