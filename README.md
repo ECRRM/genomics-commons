@@ -1,4 +1,4 @@
-# ECRRM Genomics Commons
+# Genomics Commons
 
 `genomics-commons` is a [Docker](https://www.docker.com/) image for common genomics tools.
 
