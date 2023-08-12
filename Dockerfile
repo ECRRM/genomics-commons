@@ -502,7 +502,7 @@ RUN mv $SETUPDIR/init.sh /etc/genomics-commons.sh
 RUN chmod a+x /etc/genomics-commons.sh
 
 WORKDIR /root/
-ENTRYPOINT ["/etc/genomics-commons.sh"]
+CMD ["/etc/genomics-commons.sh"]
 RUN rm -fr $SETUPDIR
 
 # Versions
