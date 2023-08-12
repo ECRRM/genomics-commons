@@ -479,9 +479,7 @@ cd ensembl-vep
 RUN cd $SETUPDIR/ && \
 wget -t 0 https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20230116.zip && \
 unzip plink_linux_x86_64_20230116.zip && \
-mv plink /usr/local/bin/ && \
-mv prettify /usr/local/bin/ && \
-
+mv plink /usr/local/bin/ && mv prettify /usr/local/bin/
 
 ##########################################################################################
 ##########################################################################################
