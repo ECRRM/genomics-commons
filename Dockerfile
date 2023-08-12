@@ -497,7 +497,6 @@ RUN echo "echo " >> $SETUPDIR/init.sh
 RUN echo "echo 'Have fun!'" >> $SETUPDIR/init.sh
 RUN echo "echo ''" >> $SETUPDIR/init.sh
 RUN echo "echo ''" >> $SETUPDIR/init.sh
-RUN echo "/usr/bin/bash" >> $SETUPDIR/init.sh
 RUN echo "" >> $SETUPDIR/init.sh
 RUN mv $SETUPDIR/init.sh /etc/genomics-commons.sh
 RUN chmod a+x /etc/genomics-commons.sh
