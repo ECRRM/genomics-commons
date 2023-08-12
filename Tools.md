@@ -1,4 +1,4 @@
-# Tools in the Bioinformatics Toolbox
+# Tools in the ECRRM Genomics Commons
 
 | Tool | Description |
 | ---- | ----------- |
