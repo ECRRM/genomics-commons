@@ -1,5 +1,5 @@
 # Genomics Commons
-
+0;95;0c
 `genomics-commons` is a [Docker](https://www.docker.com/) image for common genomics tools.
 
 The list of the installed tools and packages can be found [here](Tools.md)
@@ -32,6 +32,7 @@ sudo docker build -t genomics-commons .
 sudo docker run -it genomics-commons
 ```
 
+## Tutorial
 Here is a toy example on using the docker image: [Genomics Commons Docker Image: A Simple Example](genomics_commons.ipynb)
 
 ### Notes
