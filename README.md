@@ -1,6 +1,4 @@
-# ECRRM Genomics Commons
-
-![Genomics Commons](https://media.gettyimages.com/id/131800347/photo/printout-of-a-dna-sequence-chromatogram.jpg?s=2048x2048&w=gi&k=20&c=-F2kfcHNZSmKcs3t2KdU0DwwvDrw4F9-PlqxKoizqxI=)
+# Genomics Commons
 
 `genomics-commons` is a [Docker](https://www.docker.com/) image for common genomics tools.
 
@@ -33,6 +31,8 @@ sudo docker build -t genomics-commons .
 ```bash
 sudo docker run -it genomics-commons
 ```
+
+Here is a toy example on using the docker image: [Genomics Commons Docker Image: A Simple Example](genomics_commons.ipynb)
 
 ### Notes
 - The size of the image is about **34 GB**.
